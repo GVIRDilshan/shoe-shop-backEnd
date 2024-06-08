@@ -1,0 +1,271 @@
+:root {
+    --black: #010101;
+    --white: #FFFFFF;
+    --green: #00932C;
+    --light-green: #CCE9D5;
+    --border-grey: #DEE2E6;
+    --letters-grey: #88888B;
+    --hr-grey: #F8F7F7;
+    --red: red;
+    --choosen-color: #CB011B;
+    --background-grey: #F5F5F5;
+
+}
+
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration:  none;
+    color: var(--green);
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-grey);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: 100;*/
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    color: var(--black);
+
+}
+
+/*------------------------------------------------------------- scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--white);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--border-grey);
+    border-radius: 12px;
+    transition: background-color 2s ease-in-out;
+
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /*border: 2px solid var(--yellow);*/
+    background-color: var(--letters-grey);
+
+}
+
+
+/*------------------------------------------------------------- side bar */
+header {
+    position: fixed;
+    display: inline-block;
+    height: 100%;
+    width: 265px;
+    background-color: var(--white);
+    overflow-y: scroll;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+}
+
+.logo-wrapper {
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.logo-img {
+    aspect-ratio: 1/1;
+    width: 80px;
+
+}
+
+.logo-name {
+    font-size: 26px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+#navBar {
+    position: relative;
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+
+
+}
+
+#nav-btn-set {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#nav-btn-set > li {
+    display: flex;
+    align-items: center;
+    /*background-color: var(--green);*/
+    /*border: 1px solid black;*/
+    height: 46px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: var(--black);
+    font-weight: 600;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    margin: 8px 0;
+
+}
+
+#nav-btn-set > li:hover {
+    background-color: var(--green);
+    color: var(--white);
+
+}
+
+#nav-btn-set > li:hover > i {
+    color: var(--white);
+
+}
+
+#nav-btn-set > li > i {
+    display: flex;
+    color: var(--green);
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 15px 0 15px;
+
+}
+
+.user-btn {
+    display: flex;
+    position: relative;
+    top: 140px;
+    align-items: center;
+    border-radius: 50px;
+    height: 46px;
+    border: 2px solid var(--border-grey);
+    background-color: unset;
+    transition: 0.3s linear;
+
+}
+
+.user-btn:hover {
+    background-color: var(--border-grey);
+
+}
+
+.user-profile-pic {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+    width: 28px;
+    margin: 0 15px 0 0;
+    background-color: var(--light-green);
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.user-profile-pic::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    background-color: var(--green);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    box-sizing: content-box;
+
+}
+
+.user-name {
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#log-out-btn {
+    top: 150px;
+    border: unset;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#log-out-btn > i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 0 25px;
+    font-size: 20px;
+
+}
+
+#log-out-btn:hover {
+    /*background-color: var(--green);*/
+    color: var(--green);
+
+}
+
+.section-styles {
+    width: 100%;
+    /*background-color: red;*/
+    padding-left: 265px;
+    padding-right: 450px;
+    box-sizing: border-box;
+    /*margin: 0;*/
+    z-index: 2;
+
+}
+
+/*------------------------------ loading styles */
+#loading_div {
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 4;
+
+}
+
+#loading_div > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+
+
+
+

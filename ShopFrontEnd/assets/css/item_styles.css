@@ -1,0 +1,353 @@
+/*---------------------------------------- item sec */
+.item-body-wrapper {
+    padding: 228px 47px 0 47px;
+    border-radius: 0;
+    background-color: var(--background-grey);
+
+}
+
+.item-table-wrapper {
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+}
+
+.item-table > tbody > tr {
+    cursor: pointer;
+
+}
+
+.item-view-form > div > label {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--letters-grey);
+
+}
+
+.item-view-form > div > select ,
+.item-view-form > div > input {
+    /*width: 100%;*/
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid var(--border-grey);
+    background-color: var(--hr-grey);
+    cursor: var(--black);
+    font-size: 14px;
+    /*padding: 0 20px;*/
+    /*margin-top: 25px;*/
+
+}
+
+#carouselExampleIndicators {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+#slider-img-wrapper img {
+    cursor: pointer;
+
+}
+
+#slider-img-wrapper input {
+    display: none;
+
+}
+
+.item-stock-table {
+    overflow-y: scroll;
+}
+
+.stock-table-header {
+    font-size: 16px;
+    color: var(--letters-grey);
+    font-weight: 600;
+    margin: 15px 0;
+
+}
+
+.item-stock-table > tbody > tr > td > input {
+    width: 50%;
+
+}
+
+.item-stock-table > tbody > tr > td > i {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 12px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.item-stock-table > tbody > tr > td ,
+.item-stock-table > thead > tr > th ,
+.item-stock-table > tbody > tr > td > input {
+    position: relative;
+    font-size: 14px;
+    padding: 2px;
+
+}
+
+.item-stock-table > tbody > tr > td:first-child {
+    text-align: center;
+
+}
+
+/*------------------------------------------------------------ item add wrapper */
+.item-add-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    z-index: 3;
+
+
+}
+
+.item-form {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: var(--white);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 45px;
+
+}
+
+.item-add-form {
+    position: relative;
+    font-size: 0;
+    margin-bottom: 50px;
+    /*border: 1px solid black;*/
+
+}
+
+.item-add-form > div {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    padding: 0 10px;
+
+}
+
+.item-add-colour-wrapper {
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item-add-colour-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /*border: 1px solid green;*/
+    margin: 20px;
+    width: max-content;
+
+
+}
+
+/*.item-add-colour-wrapper > div > h4 {*/
+/*    padding: 0;*/
+/*    margin: 20px 0 0 0;*/
+/*    border-radius: 15px;*/
+/*    width: 100px;*/
+/*    height: 40px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    font-weight: 600;*/
+/*    font-size: 16px;*/
+/*    border: 2px solid green;*/
+/*    color: green;*/
+
+
+/*}*/
+
+.item-add-colour-wrapper > div > button {
+    width: 100px;
+    margin-top: 15px;
+    cursor: auto!important;
+
+}
+
+.file-chooser {
+    position: relative;
+    display: inline-block;
+    /*border: 1px solid red;*/
+    /*border: 1px solid var(--border-grey);*/
+    /*border-radius: 15px;*/
+    /*width: 20%;*/
+    /*height: fit-content;*/
+    /*padding: 10px 30px 10px 10px;*/
+    /*margin-right: 10px;*/
+
+}
+
+.img-holder {
+    width: 100px;
+    height: 100px;
+    /*background-color: red;*/
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: url("/assets/images/icons/photo-camera.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.side-bar-body .img-holder {
+    width: 180px;
+    height: 180px;
+
+}
+
+/*.file-chooser i {*/
+/*    position: absolute;*/
+/*    width: fit-content;*/
+/*    height: fit-content;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    right: 10px;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    margin: auto;*/
+/*    cursor: pointer;*/
+
+/*}*/
+
+/*.file-chooser i:hover {*/
+/*    color: var(--red);*/
+
+/*}*/
+
+.file-chooser input {
+    display: none;
+    /*margin-right: 20px;*/
+
+}
+
+.save-item-btn {
+    position: absolute;
+    border: unset;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--green);
+    color: var(--white);
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    margin: auto;
+
+}
+
+.save-item-btn:hover {
+    background-color: var(--light-green);
+    color: var(--black);
+
+}
+
+.item-form > i:first-child {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 38px;
+    cursor: pointer;
+    color: var(--black);
+    z-index: 1;
+    right: 20px;
+    top: 20px;
+
+}
+
+.item-form > i:first-child:hover {
+    /*color: var(--red);*/
+
+}
+
+/*---------------------------- item image wrapper */
+.item-img-wrapper {
+    display: none;
+    margin: 10px 0;
+    /*border: 1px solid red;*/
+    width: 100%;
+
+}
+
+.item-img {
+    /*border: 1px solid black;*/
+    aspect-ratio: 4/3;
+    width: 100%;
+    background-image: url("/assets/images/shoes/domino-164_6wVEHfI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.img-btn-set-wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-btn-set-wrapper label {
+    width: 80px;
+    /*margin: 5px;*/
+
+}
+
+#img-set{
+    display: none;
+}
+
+#item-stock-qty-table,
+#item-stock-max-qty-table {
+    table-layout: fixed;
+
+}
+
+#item-stock-qty-table td ,
+#item-stock-qty-table th ,
+#item-stock-max-qty-table td ,
+#item-stock-max-qty-table th {
+    text-align: center;
+    word-wrap: break-word;
+
+}
+
+#item-stock-max-qty-table td > input {
+    width: 100%;
+}

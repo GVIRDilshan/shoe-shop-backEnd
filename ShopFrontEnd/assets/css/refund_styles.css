@@ -1,0 +1,32 @@
+#refund-sec #refund-form {
+    display: flex;
+
+}
+
+#refund-sec #refund-form > form {
+    display: inline-block;
+    width: 60%;
+
+}
+
+#refund-sec #refund-form > form > div {
+    width: 100%;
+
+}
+
+.refund-item-card-wrapper {
+    width: 40%;
+    height: 70%;
+    scroll-behavior: smooth;
+
+}
+
+#save-refund-btn {
+
+
+}
+
+
+
+
+

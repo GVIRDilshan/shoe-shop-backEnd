@@ -1,0 +1,43 @@
+.employee-profile-pic-row {
+    border: 1px solid var(--border-grey);
+    aspect-ratio: 1/1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /*background-image: url("/assets/images/shoes/domino-164_6wVEHfI-unsplash.jpg");*/
+    background-size: cover;
+    background-position: center;
+
+}
+
+.table-row-align tbody > tr > td {
+    vertical-align: middle;
+
+}
+
+.selected-img-employee {
+    aspect-ratio: 1/1;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 4px solid var(--border-grey);
+    background-image: url("/assets/images/icons/photo-camera.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.employee-add-form > div {
+    width: 25%;
+
+}
+
+.employee-profile-pic-selected {
+    position: relative;
+    width: 10%;
+    top: -10px;
+    margin: 10px auto;
+
+}
+

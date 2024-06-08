@@ -1,0 +1,52 @@
+.resupply-item-card-button {
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+#resupply-sec > .side-bar-wrapper > .resupply-item-card ,
+#resupply-sec > #resupply-add-wrapper > .item-form > .resupply-item-list-wrapper > .resupply-item-card {
+    border: 2px solid var(--border-grey);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--hr-grey);
+
+}
+
+.search-bar-wrapper-grey-styles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-bar-wrapper-grey-styles > i:first-child ,
+.search-bar-wrapper-grey-styles > input {
+    background-color: var(--hr-grey);
+
+}
+
+.search-bar-wrapper-grey-styles > input {
+    width: 80%;
+
+}
+
+.search-bar-wrapper-grey-styles > i:first-child {
+    /*width: 5%;*/
+}
+
+.resupply-item-list-wrapper {
+    margin-top: 50px;
+    /*border: 1px solid black;*/
+    height: 300px;
+    overflow-y: scroll;
+    /*padding: 25px;*/
+
+}
+
+#save-resupply-btn {
+    bottom: 20px;
+
+}
+
+
